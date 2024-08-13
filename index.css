@@ -4,17 +4,7 @@ html, body {
     text-align: center;
     box-sizing: border-box;
 }
-img{
-    width: 90px;
-    height: 90px;
-}
-.container{
-    max-width: 390px;
-    height: 844px;
-    margin: auto;
-    background: #1B1924;
-    color: #FFFFFF;
-}
+
 
 .from-to{
     width: 152.85px;
@@ -29,12 +19,6 @@ img{
     border: none;
 }
 
-textarea{
-    color: #8F8F8F;
-    background: #444059;
-    margin: 10px;
-}
-
 button{
     width: 317px;
     height: 61px;
@@ -42,14 +26,6 @@ button{
     margin: 4px auto;
     background: #28A9F1;
     font-size: larger;
-}
-
-.endorsements{
-    width: 317px;
-    margin: 4px auto;
-    background: #FFFFFF;
-    color: #1B1924;
-    padding: 2px 2px;
 }
 
 li{
@@ -60,4 +36,66 @@ li{
 .bold{
     font-weight: bold;
     padding: 4px 0;
+}
+
+ /* mobile view */
+@media (max-width: 480px) {
+    img{
+        width: 90px;
+        height: 90px;
+    }
+    .container{
+        max-width: 390px;
+        height: 844px;
+        margin: auto;
+        background: #1B1924;
+        color: #FFFFFF;
+    }
+
+    .endorsements{
+        width: 317px;
+        margin: 4px auto;
+        background: #FFFFFF;
+        color: #1B1924;
+        padding: 2px 2px;
+    }
+
+    textarea{
+        color: #8F8F8F;
+        background: #444059;
+        margin: 10px;
+    }
+}
+
+/* tablet and bigger screen view */
+@media (min-width: 481px) {
+    img{
+        margin: 10px;
+        width: 85%;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        background: #1B1924;
+        color: #FFFFFF;
+        display: flex;
+    }
+
+    .endorsements{
+        width: 80%;
+        margin: 4px auto;
+        background: #FFFFFF;
+        color: #1B1924;
+        padding: 2px 2px;
+        border-radius: 16px;
+    }
+
+    textarea{
+        color: #8F8F8F;
+        background: #444059;
+        margin: 10px;
+        width: 50vb;
+    }
 }
