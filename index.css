@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+.container{
+    max-width: 390px;
+    height: 844px;
+    margin: auto;
+    background: #1B1924;
+    color: #FFFFFF;
+}
+
+.from-to{
+    width: 152.85px;
+    height: 40px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: center;
+    color: #8F8F8F;
+    background: #444059;
+    border: none;
+}
+
+textarea{
+    color: #8F8F8F;
+    background: #444059;
+    margin: 10px;
+}
+
+button{
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    margin: 4px auto;
+    background: #28A9F1;
+    font-size: larger;
+}
+
+.endorsements{
+    width: 317px;
+    margin: 4px auto;
+    background: #FFFFFF;
+    color: #1B1924;
+    padding: 2px 2px;
+}
+
+li{
+    list-style: none;
+    text-align: left;
+}
+
+.bold{
+    font-weight: bold;
+    padding: 4px 0;
+}
